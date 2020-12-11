@@ -104,25 +104,41 @@
  * ## colors
  * ------------------------------------------------------------------- */
 :root {
-
+/* ORGINIAL */
     /* color-1(#d9083c)
      * color-2(#eb5e55)
      * color-3(#f2d0a4)
      */
-    --color-1: hsla(345, 93%, 44%, 1);
+    /* --color-1: hsla(345, 93%, 44%, 1);
     --color-2: hsla(4, 79%, 63%, 1);
-    --color-3: hsla(34, 75%, 80%, 1);
+    --color-3: hsla(34, 75%, 80%, 1); */
 
-    /* theme color variations
-     */
-    --color-1-lighter: hsla(345, 93%, 64%, 1);
+    /* theme color variations orginial */
+    /* --color-1-lighter: hsla(345, 93%, 64%, 1);
     --color-1-light  : hsla(345, 93%, 54%, 1);
     --color-1-dark   : hsla(345, 93%, 34%, 1);
     --color-1-darker : hsla(345, 93%, 24%, 1);
     --color-2-lighter: hsla(4, 79%, 83%, 1);
     --color-2-light  : hsla(4, 79%, 73%, 1);
     --color-2-dark   : hsla(4, 79%, 53%, 1);
-    --color-2-darker : hsla(4, 79%, 43%, 1);
+    --color-2-darker : hsla(4, 79%, 43%, 1); */
+
+/* ADJUSTED */
+
+    --color-1: rgb(0, 0, 0);
+    --color-2: rgb(31, 31, 31);
+    --color-3: rgb(83, 83, 83);
+    --color-4: rgb(255, 255, 255);
+
+        /* theme color variations adjusted */
+        --color-1-lighter: rgb(135, 223, 250);
+        --color-1-light  : rgb(72, 187, 253);
+        --color-1-dark   : rgb(33, 155, 185);
+        --color-1-darker : rgb(13, 93, 168);
+        --color-2-lighter: rgb(196, 246, 255);
+        --color-2-light  : rgb(134, 187, 230);
+        --color-2-dark   : rgb(40, 160, 230);
+        --color-2-darker : rgb(23, 92, 196);
 
     /* feedback colors
      * color-error(#ffd1d2), color-success(#c8e675), 
@@ -162,7 +178,8 @@
     --color-gray-3 : #d3d5d8;
     --color-gray-2 : #e2e3e5;
     --color-gray-1 : #f0f1f2;
-    --color-white  : #ffffff;
+    /* Changed to black color because of the white background */
+    --color-white  : #161719;
 
     /* text
      */
@@ -177,7 +194,7 @@
     --color-btn-text              : var(--color-white);
     --color-btn-hover             : var(--color-white);
     --color-btn-hover-text        : var(--color-black);
-    --color-btn-primary           : var(--color-1);
+    --color-btn-primary           : var(--color-4);
     --color-btn-primary-text      : var(--color-white);
     --color-btn-primary-hover     : var(--color-white);
     --color-btn-primary-hover-text: var(--color-black);
@@ -189,7 +206,8 @@
     /* others
      */
     --color-body  : var(--color-1);
-    --color-bg    : #14171B;
+    /* --color-bg    : #14171B; */
+    --color-bg    : #ffffff;
     --color-border: var(--color-gray-17);
 }
 
@@ -2052,7 +2070,7 @@ button,
 
 #loader>div {
     content: "";
-    background: white;
+    background: rgb(0, 0, 0);
     width: 6px;
     height: 6px;
     position: absolute;
@@ -3063,9 +3081,10 @@ input::-moz-focus-inner {
     z-index: 100;
     width: 100%;
     height: 8.8rem;
-    position: absolute;
+    /* position: absolute; */
     top: var(--vspace-0_75);
     left: 0;
+    background-color: black;
 }
 
 .s-header.offset {
@@ -3094,7 +3113,7 @@ input::-moz-focus-inner {
 }
 
 .s-header.sticky .header-nav a {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(0, 0, 0);
 }
 
 .s-header.sticky.scrolling {
@@ -3297,7 +3316,7 @@ input::-moz-focus-inner {
 }
 
 .s-header__content .btn svg path {
-    fill: white;
+    fill: black;
 }
 
 .s-header__content .btn:hover, 
@@ -3477,7 +3496,7 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-hero {
-    background-color: #121417;
+    background-color: #ffffff;
     width: 100%;
     height: 100vh;
     min-height: calc(25.5 * var(--space));
@@ -4017,7 +4036,8 @@ html.no-csstransitions .s-hero__content {
     position: relative;
 }
 
-.s-about::before {
+/* Circle pattern */
+/* .s-about::before {
     content: "";
     display: block;
     width: 28rem;
@@ -4027,26 +4047,7 @@ html.no-csstransitions .s-hero__content {
     position: absolute;
     top: 0;
     left: 50%;
-}
-
-.s-about .horizontal-line {
-    width: 32px;
-    height: 20rem;
-    position: absolute;
-    top: -7rem;
-    left: calc(6vw + 1px);
-}
-
-.s-about .horizontal-line::before {
-    content: "";
-    display: block;
-    width: 1px;
-    background-color: var(--color-1-darker);
-    position: absolute;
-    right: calc(50% + 1px);
-    top: 0;
-    bottom: 0;
-}
+} */
 
 
 /* ------------------------------------------------------------------- 
@@ -4057,7 +4058,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-about__photo {
-    background-image: url(../images/about-photo.jpg);
+    background-image: url(../img/homepage/portrait.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4120,10 +4121,6 @@ html.no-csstransitions .s-hero__content {
     .s-about {
         padding-top: calc(5 * var(--space));
     }
-    .s-about .horizontal-line {
-        right: calc(4.6rem);
-        left: auto;
-    }
 }
 
 @media screen and (max-width: 900px) {
@@ -4135,12 +4132,6 @@ html.no-csstransitions .s-hero__content {
 @media screen and (max-width: 800px) {
     .s-about::before {
         display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .s-about .horizontal-line {
-        right: calc(2.6rem);
     }
 }
 
@@ -4711,7 +4702,7 @@ html.no-csstransitions .s-hero__content {
 .s-contact__email {
     margin-top: var(--vspace-1_5);
     font-family: var(--font-2);
-    font-size: calc(var(--text-size) * 6.6);
+    font-size: calc(var(--text-size) * 3.3);
     font-weight: 500;
     letter-spacing: -0.01em;
     line-height: 1;
@@ -4759,11 +4750,11 @@ html.no-csstransitions .s-hero__content {
 .s-footer {
     padding-top: var(--vspace-2);
     padding-bottom: var(--vspace-4);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .s-footer a {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .s-footer .h6 {
@@ -4842,12 +4833,12 @@ html.no-csstransitions .s-hero__content {
 
 .ss-copyright a {
     display: inline-block;
-    color: white;
-    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+    color: rgb(0, 0, 0);
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
 }
 
 .ss-copyright a:hover, .ss-copyright a:focus {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .ss-copyright span {
@@ -4858,7 +4849,7 @@ html.no-csstransitions .s-hero__content {
     content: "|";
     display: inline-block;
     padding: 0 .8rem 0 1rem;
-    color: rgba(255, 255, 255, 0.25);
+    color: rgba(0, 0, 0, 0.25);
 }
 
 .ss-copyright span:last-child::after {
