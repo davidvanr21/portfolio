@@ -1,23 +1,19 @@
-==================================================================================================
+I've used a free code-based template from 
 
-DESCRIPTION:
+
+# Description
 
 FLARE is a free landing page and website template designed for digital agency or startup. With 
 this template, you can now easily create a website that would make a strong and lasting impression. 
 Its trendy, modern, and sophisticated style will surely help your site to stand out visually and 
 grab the attention of those potential clients.
 
-==================================================================================================
+## License
+
+This free resource is provided by styleshout.com and is free to use in both personal and commercial projects.
 
 
-LICENSE:
-
-This free resource is provided by styleshout.com and is free to use in 
-both personal and commercial projects.
-
-
-Rights:
--------
+## Rights
 
 You are permitted to use this free resource in any number of personal and commercial projects for 
 yourself or a client. You may modify the resource according to your requirements and include them 
@@ -25,8 +21,7 @@ in your projects under the following condition - you MUST give appropriate credi
 attribution link to styleshout.com.
 
 
-Prohibitions:
--------------
+## Prohibitions
 
 You are not permitted to resell or redistribute(even for free) the resource "as is" without 
 prior consent. If you would like to republish or promote this resource on your site, please 
@@ -34,8 +29,7 @@ link back to the appropriate resource page on styleshout.com where users can fin
 and not directly to the download zip file.
 
 
-Attribution: 
-------------
+## Attribution
 
 You must include a credit link to our website(https://www.styleshout.com) somewhere on your site. 
 We prefer the footer credit that comes with the template but you are still free to move it 
