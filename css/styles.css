@@ -159,7 +159,7 @@
      * (https://maketintsandshades.com/)
      */
     --color-black  : #000000;
-    --color-gray-19: #0b0b0c;
+    --color-gray-19: #202020;
     --color-gray-18: #161719;
     --color-gray-17: #202225;
     --color-gray-16: #2b2e32;
@@ -592,10 +592,28 @@ textarea {
 }
 
 /* ------------------------------------------------------------------- 
+ * ## My own CSS
+ * ------------------------------------------------------------------- */
+.elfsight {
+    margin: 0 100px;
+}
+
+ /* .first-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* height: 100vw; */
+} */
+
+/* ------------------------------------------------------------------- 
  * ## interactive
  * ------------------------------------------------------------------- */
 
 /* Add the correct display in Edge, IE 10+, and Firefox. */
+
+
+
 
 details {
     display: block;
@@ -3552,6 +3570,9 @@ input::-moz-focus-inner {
     padding-top: 20vh;
     padding-bottom: 7vh;
     position: relative;
+    background-image: url("https://i.ibb.co/2q6ZX7v/36.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .s-hero__content h1 {
@@ -3657,7 +3678,7 @@ input::-moz-focus-inner {
     width: 9.6rem;
     background-color: var(--color-1);
     -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     color: white;
     border-radius: 100%;
     position: relative;
@@ -3667,6 +3688,9 @@ input::-moz-focus-inner {
 .s-hero__video-link:focus {
     background-color: var(--color-gray-19);
     outline: 0;
+    height: 10rem;
+    width: 10rem;
+    transition: .2s ease-in-out;
 }
 
 .s-hero__video-text {
@@ -3685,9 +3709,6 @@ input::-moz-focus-inner {
     transform: rotate(90deg) translateX(-200px);
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-}
-
-.s-hero__scroll-link {
     display: inline-block;
     font-family: var(--font-2);
     font-weight: 300;
@@ -3700,11 +3721,6 @@ input::-moz-focus-inner {
     vertical-align: middle;
     color: var(--color-text);
     position: relative;
-}
-
-.s-hero__scroll-link:hover, 
-.s-hero__scroll-link:focus {
-    color: white;
 }
 
 
