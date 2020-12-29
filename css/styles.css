@@ -595,7 +595,8 @@ textarea {
  * ## My own CSS
  * ------------------------------------------------------------------- */
 .elfsight {
-    margin: 0 100px;
+    margin: 0 200px;
+    align-content: center;
 }
 
  /* .first-img {
@@ -2936,7 +2937,7 @@ input::-moz-focus-inner {
 
 .section-title {
     display: block;
-    margin-bottom: var(--vspace-2);
+    margin-bottom: var(--vspace-1);
     position: relative;
 }
 .section-title::before {
@@ -2966,6 +2967,14 @@ input::-moz-focus-inner {
     font-weight: 500;
     line-height: var(--vspace-1_75);
     margin-top: 0;
+}
+
+.display-2 {
+    font-size: var(--text-xxl);
+    font-weight: 500;
+    line-height: var(--vspace-1_75);
+    margin-top: 0;
+    color: white;
 }
 
 .item-title {
@@ -3099,10 +3108,11 @@ input::-moz-focus-inner {
     z-index: 100;
     width: 100%;
     height: 8.8rem;
-    /* position: absolute; */
+    position: absolute;
     top: var(--vspace-0_75);
     left: 0;
     background-color: black;
+    top: 0px;
 }
 
 .s-header.offset {
@@ -4043,11 +4053,10 @@ html.no-csstransitions .s-hero__content {
 
 /* ===================================================================
  * # about
- *
  * ------------------------------------------------------------------- */
 .s-about {
     background-color: var(--color-bg);
-    padding-top: calc(7 * var(--space));
+    padding-top: calc(3 * var(--space));
     padding-bottom: 0;
     position: relative;
 }
@@ -4229,7 +4238,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
     .s-services {
-        padding-top: calc(5 * var(--space));
+        padding-top: calc(2 * var(--space));
     }
 }
 
@@ -4247,7 +4256,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-portfolio {
     background-color: var(--color-bg);
-    padding-top: calc(7 * var(--space));
+    padding-top: calc(3 * var(--space));
     padding-bottom: 0;
 }
 
@@ -4257,7 +4266,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-portfolio__list {
     max-width: calc(var(--width-max) + 40px);
-    padding-top: var(--vspace-1_5);
+    /* padding-top: var(--vspace-1_5); */
 }
 
 .folio-item {
@@ -4710,7 +4719,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-contact__top .h6 {
-    color: black;
+    color: white;
     margin-top: 0;
     margin-bottom: var(--vspace-1);
 }
@@ -4741,13 +4750,14 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1600px) {
     .s-contact__email {
-        font-size: calc(var(--text-size) * 6);
+        font-size: calc(var(--text-size) * 3);
     }
 }
 
 @media screen and (max-width: 1200px) {
     .s-contact__email {
-        font-size: 10vw;
+        /* font-size: 10vw; */
+        calc(var(--text-size) * 3)
     }
 }
 
