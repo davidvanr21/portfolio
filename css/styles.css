@@ -3347,10 +3347,11 @@ input::-moz-focus-inner {
     fill: black;
 }
 
+/* Contact button:hover (nav 1) */
 .s-header__content .btn:hover, 
 .s-header__content .btn:focus {
-    background-color: var(--color-gray-19) !important;
-    border-color: var(--color-gray-19) !important;
+    background-color: transparent !important;
+    border-color: white !important;
     color: white;
 }
 
@@ -3361,9 +3362,11 @@ input::-moz-focus-inner {
     color: black;
 }
 
+
+/* Contact button:hover (nav 2) */
 .sticky .s-header__content .btn:hover svg path, 
 .sticky .s-header__content .btn:focus svg path {
-    fill: black;
+    fill: white;
 }
 
 
@@ -4714,8 +4717,8 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: var(--color-1);
-    padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-2);
+    padding-top: calc( * var(--space));
+    padding-bottom: calc(4 * var(--space));
 }
 
 .s-contact__top .h6 {
@@ -4781,6 +4784,12 @@ html.no-csstransitions .s-hero__content {
 
 .s-footer a {
     color: black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.s-footer a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 .s-footer .h6 {
@@ -4860,7 +4869,7 @@ html.no-csstransitions .s-hero__content {
 .ss-copyright a {
     display: inline-block;
     color: rgb(0, 0, 0);
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .ss-copyright a:hover, .ss-copyright a:focus {
