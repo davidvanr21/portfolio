@@ -3128,7 +3128,7 @@ input::-moz-focus-inner {
 }
 
 .s-header.sticky {
-    background-color: var(--color-gray-19);
+    background-color: black;
     opacity: 0;
     visibility: hidden;
     position: fixed;
@@ -3343,8 +3343,13 @@ input::-moz-focus-inner {
     transform: translateY(-0.1rem);
 }
 
+/* Contact button icon */
 .s-header__content .btn svg path {
     fill: black;
+}
+
+.s-header__content .btn svg path:hover {
+    fill: white;
 }
 
 /* Contact button:hover (nav 1) */
@@ -3397,7 +3402,9 @@ input::-moz-focus-inner {
 
 @media screen and (max-width: 900px) {
     .s-header {
-        top: var(--vspace-0_5);
+        /* top: var(--vspace-0_5); */
+        top: 0;
+        width: 100vw;
         height: 8rem;
     }
     .s-header.sticky .s-header__content .btn, 
@@ -4717,7 +4724,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: var(--color-1);
-    padding-top: calc( * var(--space));
+    padding-top: calc(4 * var(--space));
     padding-bottom: calc(4 * var(--space));
 }
 
@@ -4778,7 +4785,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-footer {
     padding-top: var(--vspace-2);
-    padding-bottom: var(--vspace-4);
+    /* padding-bottom: var(--vspace-4); */
     color: rgb(0, 0, 0);
 }
 
