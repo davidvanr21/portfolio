@@ -3653,6 +3653,8 @@ input::-moz-focus-inner {
 
 .s-hero__content-about p {
     margin-bottom: var(--vspace-2);
+    background-color: white;
+    opacity: 0.94;
 }
 
 /* hero content social
