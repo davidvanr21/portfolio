@@ -3401,6 +3401,15 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width: 900px) {
+
+    /* instagram feed */
+
+    .elfsight {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .s-header {
         /* top: var(--vspace-0_5); */
         top: 0;
@@ -3590,7 +3599,8 @@ input::-moz-focus-inner {
     padding-top: 20vh;
     padding-bottom: 7vh;
     position: relative;
-    background-image: url("https://raw.githubusercontent.com/davidvanr21/portfolio/main/img/homepage/header-img.png");
+    /* background-image: url("https://raw.githubusercontent.com/davidvanr21/portfolio/main/img/homepage/header-img.png"); */
+    /* background-image: ; */
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -4792,6 +4802,10 @@ html.no-csstransitions .s-hero__content {
 .s-footer a {
     color: black;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.ss-go-top link-is-visible {
+    color: white !important;
 }
 
 
