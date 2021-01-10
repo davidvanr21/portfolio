@@ -3599,8 +3599,7 @@ input::-moz-focus-inner {
     padding-top: 20vh;
     padding-bottom: 7vh;
     position: relative;
-    /* background-image: url("https://raw.githubusercontent.com/davidvanr21/portfolio/main/img/homepage/header-img.png"); */
-    /* background-image: ; */
+    background-image: url("https://raw.githubusercontent.com/davidvanr21/portfolio/main/img/homepage/header-mockup.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
