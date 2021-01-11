@@ -597,6 +597,12 @@ textarea {
 .elfsight {
     margin: 0 200px;
     align-content: center;
+    padding-bottom: calc(2 * var(--space));
+}
+
+#header-img-addTimer {
+    width: 100vw;
+    margin-top: 5em;
 }
 
  /* .first-img {
@@ -2469,6 +2475,7 @@ input[type="button"].btn--primary {
     color: var(--color-btn-primary-text);
 }
 
+/* Button primary hover */
 .btn.btn--primary:hover, 
 button.btn--primary:hover, 
 input[type="submit"].btn--primary:hover, 
@@ -2479,9 +2486,9 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus, 
 input[type="reset"].btn--primary:focus, 
 input[type="button"].btn--primary:focus {
-    background: var(--color-btn-primary-hover);
-    border-color: var(--color-btn-primary-hover);
-    color: var(--color-btn-primary-hover-text);
+    background: black;
+    border-color: white;
+    color: white;
 }
 
 /* button modifiers
@@ -3348,13 +3355,14 @@ input::-moz-focus-inner {
     fill: black;
 }
 
-.s-header__content .btn svg path:hover {
+.s-header__content .btn svg path:hover,
+.s-header__content .btn svg path:focus {
     fill: white;
 }
 
 /* Contact button:hover (nav 1) */
 .s-header__content .btn:hover, 
-.s-header__content .btn:focus {
+.s-header__content .btn:focus, {
     background-color: transparent !important;
     border-color: white !important;
     color: white;
@@ -4207,7 +4215,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-services {
     background-color: var(--color-bg);
-    padding-top: calc(6 * var(--space));
+    padding-top: calc(2 * var(--space));
     padding-bottom: var(--vspace-2);
 }
 
