@@ -10,3 +10,8 @@ Functional Programming is part of the Tech Treck of CMD Amsterdam 2020. It's a 6
 
 ## License & Copyright
 Licensed under the [MIT License](https://github.com/davidvanr21/functional-programming/blob/main/LICENSE) by © [David van Rumpt](https://github.com/davidvanr21), 2020
+
+FLARE is a free landing page and website template designed for digital agency or startup. With 
+this template, you can now easily create a website that would make a strong and lasting impression. 
+Its trendy, modern, and sophisticated style will surely help your site to stand out visually and 
+grab the attention of those potential clients. [Read more](https://github.com/davidvanr21/portfolio/wiki/FLARE).
