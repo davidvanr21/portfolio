@@ -3553,8 +3553,8 @@ input::-moz-focus-inner {
 .s-hero {
     background-color: #ffffff;
     width: 100%;
-    height: 100vh;
-    min-height: calc(25.5 * var(--space));
+    /* height: 100vh; */
+    /* min-height: calc(25.5 * var(--space)); */
     overflow: hidden;
     position: relative;
 }
@@ -4760,9 +4760,9 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-contact__email {
-    margin-top: var(--vspace-1_5);
+    margin-top: var(--vspace-1);
     font-family: var(--font-2);
-    font-size: calc(var(--text-size) * 3.3);
+    font-size: calc(var(--text-size) * 1.8);
     font-weight: 500;
     letter-spacing: -0.01em;
     line-height: 1;
@@ -4785,16 +4785,16 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1600px) {
     .s-contact__email {
-        font-size: calc(var(--text-size) * 3);
+        font-size: calc(var(--text-size) * 2);
     }
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     .s-contact__email {
-        /* font-size: 10vw; */
+        font-size: 10vw;
         font-size: (var(--text-size) * 3)
     }
-}
+} */
 
 @media screen and (max-width: 400px) {
     .s-contact {

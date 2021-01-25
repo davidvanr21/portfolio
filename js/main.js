@@ -174,9 +174,10 @@
                     showHideOpacity: true
                 }
 
+                // Turning off function to swipe through projects
                 // initialize PhotoSwipe
-                let lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
-                lightBox.init();
+                // let lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
+                // lightBox.init();
             });
 
         });
