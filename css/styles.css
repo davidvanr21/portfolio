@@ -3600,7 +3600,7 @@ input::-moz-focus-inner {
  * ## hero content
  * ------------------------------------------------------------------- */
 .s-hero__content {
-    height: 100%;
+    height: 100vw;
     -ms-flex-align: end;
     -webkit-box-align: end;
     align-items: flex-end;
