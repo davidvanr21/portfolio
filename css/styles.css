@@ -613,6 +613,31 @@ textarea {
     /* height: 100vw; */
 }
 
+.projectData img {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    max-width: 70px;
+}
+
+.projectData p {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 1rem !important;
+}
+
+.projectData-last p {
+    margin-top: 0 !important;
+}
+
+/* Selection style (source: https://css-tricks.com/almanac/selectors/s/selection/) */
+::-moz-selection { 
+    background: black;
+    color: white;
+}
+::selection { 
+    background: black;
+    color: white;
+}
 /* ------------------------------------------------------------------- 
  * ## interactive
  * ------------------------------------------------------------------- */
@@ -2871,6 +2896,7 @@ input::-moz-focus-inner {
     height: 12px;
     top: 0;
     left: 5px;
+    background-color: cornflowerblue;
 }
 
 .alert-box__close::before {
@@ -2890,7 +2916,8 @@ input::-moz-focus-inner {
 
 .alert-box--error .alert-box__close::before, 
 .alert-box--error .alert-box__close::after {
-    background-color: var(--color-error-content);
+    /* background-color: var(--color-error-content); */
+    background-color: cornflowerblue;
 }
 
 .alert-box--success {
@@ -2900,7 +2927,8 @@ input::-moz-focus-inner {
 
 .alert-box--success .alert-box__close::before, 
 .alert-box--success .alert-box__close::after {
-    background-color: var(--color-success-content);
+    /* background-color: var(--color-success-content); */
+    background-color: cornflowerblue;
 }
 
 .alert-box--info {
@@ -2910,7 +2938,8 @@ input::-moz-focus-inner {
 
 .alert-box--info .alert-box__close::before, 
 .alert-box--info .alert-box__close::after {
-    background-color: var(--color-info-content);
+    /* background-color: var(--color-info-content); */
+    background-color: cornflowerblue;
 }
 
 .alert-box--notice {
@@ -2920,7 +2949,8 @@ input::-moz-focus-inner {
 
 .alert-box--notice .alert-box__close::before, 
 .alert-box--notice .alert-box__close::after {
-    background-color: var(--color-notice-content);
+    /* background-color: var(--color-notice-content); */
+    background-color: cornflowerblue;
 }
 
 
@@ -3553,8 +3583,8 @@ input::-moz-focus-inner {
 .s-hero {
     background-color: #ffffff;
     width: 100%;
-    /* height: 100vh; */
-    /* min-height: calc(25.5 * var(--space)); */
+    height: 100vh;
+    min-height: calc(25.5 * var(--space));
     overflow: hidden;
     position: relative;
 }
