@@ -3629,7 +3629,7 @@ input::-moz-focus-inner {
 /* ------------------------------------------------------------------- 
  * ## hero content
  * ------------------------------------------------------------------- */
-.s-hero__content {
+/* .s-hero__content {
     height: 100vw;
     -ms-flex-align: end;
     -webkit-box-align: end;
@@ -3640,7 +3640,7 @@ input::-moz-focus-inner {
     background-image: url("https://raw.githubusercontent.com/davidvanr21/portfolio/main/img/homepage/header-mockup.png");
     background-repeat: no-repeat;
     background-size: 100%;
-}
+} */
 
 .s-hero__content h1 {
     font-size: 22rem;
@@ -4142,7 +4142,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-about__photo {
-    background-image: url(../img/homepage/portrait.png);
+    background-image: url(../img/homepage/portrait-bw.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
