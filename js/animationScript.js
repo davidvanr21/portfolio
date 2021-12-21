@@ -1,7 +1,7 @@
 var animation = lottie.loadAnimation({
-    container: document.getElementById('headerAnimation'),
+    container: document.getElementById('animation'),
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: 'animation_david.json'
+    path: 'davidAnimationPath.json'
 })

@@ -645,7 +645,7 @@ textarea {
     margin: 0 auto;
 }
 
-#headerAnimation {
+.animation {
     color: red;
 }
 
