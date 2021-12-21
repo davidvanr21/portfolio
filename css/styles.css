@@ -645,7 +645,7 @@ textarea {
     margin: 0 auto;
 }
 
-.animation {
+#animation {
     margin: 0;
     position: absolute;
     top: 50%;
