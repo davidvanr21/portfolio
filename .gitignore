@@ -1,4 +1,3 @@
-.vscode
 .DS_Store
 .site.webmanifest
-.davidAnimation.json
+.animationPath.json
