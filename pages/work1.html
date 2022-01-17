@@ -15,20 +15,20 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/vendor.css">
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script defer src="js/fontawesome/all.min.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script defer src="/js/fontawesome/all.min.js"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/favicon/favicon-180x180.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon/favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/favicon/favicon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
 </head>
 
@@ -50,7 +50,7 @@
     <header class="s-header">
 
         <div class="s-header__logo">
-            <a href="index.html">
+            <a href="/index.html">
                 <img src="img/icons/david-title.svg" alt="Homepage">
             </a>
         </div>
@@ -59,13 +59,13 @@
     
             <nav class="s-header__nav-wrap">
                 <ul class="s-header__nav">
-                    <!-- <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li> -->
-                    <li><a class="smoothscroll" href="index.html" title="Works">Work</a></li>
-                    <li><a class="smoothscroll" href="index.html" title="About">About</a></li>
-                    <li><a class="smoothscroll" href="index.html" title="Brandstov">Brandstov</a></li>
+                    <li><a class="smoothscroll" href="#case" title="Works">Case</a></li>
+                    <li><a class="smoothscroll" href="#process" title="About">Process</a></li>
+                    <li><a class="smoothscroll" href="#result" title="Brandstov">Result</a></li>
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
 
+            <!-- contant button in header -->
             <!-- <a href="mailto:davidvanrumpt@gmail.com" class="btn btn--primary btn--small">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
                 Contact
@@ -78,59 +78,191 @@
     </header> <!-- end s-header -->
 
 
-    <!-- hero
+    <!-- hero image
     ================================================== -->
     <section id="hero" class="s-hero target-section">
+        <img src="/img/homepage/work-cbsData.png" alt="Image - Add Timer iOS concept" id="header-img-addTimer">
 
-        <img src="img/homepage/work-dataviz1.png" alt="">
-
-
-        <!-------------------------------------- Play button -->
+        <!-- ------------------------------------ Play button
         <div class="s-hero__video">
-            <a class="s-hero__video-link" href="https://youtu.be/Vs8tZy4tpNo" data-lity="">
+            <a class="s-hero__video-link" href="https://youtu.be/GauuDrKUDHc" data-lity="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
                 <span class="s-hero__video-text">Play Video</span>
             </a>
-        </div>
+        </div> -->
 
     </section> <!-- end s-hero -->
-</section> <!-- end s-services -->
+ <!-- end s-services -->
 
     <!-- services
     ================================================== -->
-    <section id="services" class="s-services">
-
+    <section class="s-services">
         <div class="row">
-            <div class="column large-12">
-                <div class="section-title" data-num="*" data-aos="fade-up">
-                    <h3 class="h6">Data Visualisation</h3>
+            <!-- Title -->
+            <div class="large-4 mob-12 column">
+                <div class="projectData">
+                    <img src="/img/icons/star.png" alt="Star">
+                    <p class="h6">CBS Datavisualisation</p>
                 </div>
             </div>
+            <!-- Used Software -->
+            <div class="large-4 mob-12 column">
+                <div class="projectData">
+                    <a href="https://www.adobe.com/nl/products/xd.html" target="_blank"><img src="img/icons/software/adobe-Xd.png" alt="Adobe XD - logo"></a>
+                    <a href="https://www.adobe.com/nl/products/illustrator.html" target="_blank"><img src="img/icons/software/adobe-Illustrator.png" alt="Adobe XD - logo"></a>
+                    <p class="h6">Used software</p>
+                </div>
+            </div>
+            <!-- Metadata -->
+            <div class="large-4 mob-12 column">
+                <div class="projectData-last">
+                    <p class="h6">Made in 2020<br>
+                    Project type: school project<br>
+                    Project link <a href="">GitHub</a></p>
+                </div>
+            </div>
+        </div>
+
+    <section id="case">
+        <hr class="fancy">
+        <!-- Title -->
+        <div class="row">
             <div class="column large-6 w-900-stack">
                 <h1 class="display-1" data-aos="fade-up">
-                    Collect, filtering and visualising data combined in one project.
+                Case
                 </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                    Analyseer de CBS website op de data en maak de data zo makkelijk mogelijk te begrijpen voor de gebruiker.
+                    Together with: Sharon Veldman en Randy Dalgliesh. Het project was gefocust op het deel van de website 
+                    dat vragen en antwoorden bood rondom het coronavirus. Een aangrijpend thema waarvan het van belang 
+                    is dat zoveel mogelijk mensen de gegeven data kunnen lezen en begrijpen.
+                </p>
             </div>
             <div class="column large-6 w-900-stack">
                 <p class="lead" data-aos="fade-up">
-                Students of the Amsterdam University of Applied Sciences filled in a enquete
-                to collect a lot of data. I discovered that there were interesting insights visible
-                between introverted and extraverted students. Watch my visualisation of this project above
-                or <a href="https://xd.adobe.com/view/5a4fc2e8-b1e6-41c0-a4c7-6d82af0f03f0-0f1c/?fullscreen" target="_blank">click here</a> to go through the project yourself.
+                    <img src="" alt="">
                 </p>
             </div>
         </div>
+    </section>
 
+    <div class="row">
+        <img src="img/work/addTimer/addTimer-Xd.png" alt="Design in Adobe XD" data-aos="fade-up">
+    </div>
+
+    <section id="process">
         <div class="row">
-            <div class="column large-12 intro">
-                <p class="updateSoon"> This page will be updated soon. I will show my process of getting to the end result and more.
-                    If you have any questions about this project and want to know more about it, hit me up! I would
-                    love to tell you more about it.
+            <div class="column large-6 w-900-stack">
+                <h1 class="display-1" data-aos="fade-up">
+                    Process
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                Tijdens het analyseren van de website viel het ons op dat de website erg onoverzichtelijk was en de navigatie
+                binnen de website lastig te volgen was. De vragen die werden gesteld linkte naar nog uitgebreidere
+                artikelen met onduidelijke datasets of naar datasets op externe websites of in andere gevallen naar een 
+                dataset die niet meer beschikbaar was.
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                We besloten om ons project op dit gebied van de website te focussen. Hiervoor hebben we dit gedeelte van de website
+                uitgepluist en hebben we alle onderwerpen genoteerd die op de huidige website staan aangegeven. Het grootste
+                deel van dit project wordt dus een focus op informatiearchitectuur
                 </p>
             </div>
         </div>
-    
+        <div class="row">
+            <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                Na het uitgebreid onderzoeken en uitproberen van een optimale IA ben ik veel bezig geweest met het vormgeven van ons concept.
+                Hierin is achteraf een mooie iteratieslag te zien. Eerst is zichtbaar dat we heel veel verschillende dingen hebben geprobeerd
+                en hebben gekeken naar alle mogelijke oplossingen. 
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                Nadat we een lange tijd waren doorgegaan met deze versie kregen we na design critique en feedbacksessies toch vaak terug
+                dat het overzicht nog niet echt aansprak en het overzicht nog te veel een dashboard idee had en dat daagde de gebruiker
+                niet echt uit om de data door te nemen. We hebben dit uiteindelijk vertaald in een versie die meer kleur bevat en 
+                pakkende titels die gebruikers nieuwsgierig moeten maken in de data.
+                </p>
+            </div>
+        </div>
+    </section>
 
+    <div class="row">
+        <img src="img/work/addTimer/addTimer-portfolioGIF.gif" alt="Animated GIF" data-aos="fade-up">
+    </div>
+
+    <section id="result">
+        <div class="row">
+            <div class="column large-6 w-900-stack">
+                <h1 class="display-1" data-aos="fade-up">
+                Result
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                    Een verkort verhaal van ons proces hebben we inzichtelijk gemaakt in een design rationale. Hierin
+                    hebben we het probleem laten zien en onze oplossing. De onderdelen die we hebben verbeterd hebben we 
+                    overzichtelijk toegelicht. Bekijk de desig rationale <a href="">hier</a>.
+                    Een gebruiksvriendelijk overzicht en data dat makkelijk is in te lezen door alle Nederlanders.
+                    was ons ontwerpdoel. Dit hebben we gerealiseerd.
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack">
+                <img src="img/work/addTimer/addTimer-portfolioGIF-small-1.gif" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                The second thing that's new is the overview of the multiple timers you've set. Every timer shows the time that's left, the time
+                that it will end, the title you gave the timer, a cancel and a pause option for you to adjust the timer afterwards.
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack">
+                <img src="img/work/addTimer/addTimer-portfolioGIF-small-2.gif" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="project credits">
+        <div class="row">
+            <div class="column large-6 w-900-stack">
+                <h1 class="display-1" data-aos="fade-up">
+                Credits
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                    We worked very close as a group together this project so a big thanks to Sharon and Randy
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                The second thing that's new is the overview of the multiple timers you've set. Every timer shows the time that's left, the time
+                that it will end, the title you gave the timer, a cancel and a pause option for you to adjust the timer afterwards.
+                </p>
+            </div>
+            <div class="column large-6 w-900-stack">
+                <img src="img/work/addTimer/addTimer-portfolioGIF-small-2.gif" alt="">
+            </div>
+        </div>
+    </section>
 
     <!-- contact
     ================================================== -->
@@ -149,15 +281,13 @@
         <div class="row h-text-center">
             <div class="column">
                 <p class="s-contact__email">
-                    <a href="mailto:davidvanrumpt@gmail.com">davidvanrumpt@gmail.com</a>
+                    <a href="mailto:#0">davidvanrumpt@gmail.com</a>
                 </p>
             </div>
         </div>
     </section>  <!-- end s-contact -->
 
-
-  
-    <!-- FOOTER
+   <!-- FOOTER
     ================================================== -->
     <footer class="s-footer">
         <div class="row row-y-top">
@@ -195,14 +325,11 @@
             </div>
         </div>
     </footer>
-    
-
-
     <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
 
 </body>
 
