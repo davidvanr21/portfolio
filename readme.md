@@ -2,7 +2,9 @@
 This is my ReadME. It contains a bit of info from my portfolio project. Enjoy!
 
 ## Credits
-- [Ralf Zonneveld](https://github.com/ralfz123) for helping me with install and put this site online. Big thanks!
+- Big thanks to [Ralf Zonneveld](https://github.com/ralfz123) for helping me with install and put this site online.
+- Also a big thanks to [Inju Michorius](https://github.com/InjuMichorius)!
+- FLARE template by [styleshout](https://www.styleshout.com/).
 
 
 ## License & Copyright
