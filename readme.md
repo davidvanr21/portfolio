@@ -1,5 +1,7 @@
 # Portfolio 2021 - David van Rumpt
-This is my ReadME. It contains a bit of info from my portfolio project. Enjoy!
+![](https://github.com/InjuMichorius/ReadEar/blob/master/public/img/documentatie/white.gif) 
+
+Watch my best projects on my portfolio. This project will never be done..
 
 ## Credits
 - Big thanks to [Ralf Zonneveld](https://github.com/ralfz123) for helping me with install and put this site online.
