@@ -1,5 +1,5 @@
 # Portfolio 2021 - David van Rumpt
-![](https://github.com/InjuMichorius/ReadEar/blob/master/public/img/documentatie/white.gif) 
+![](https://github.com/davidvanr21/portfolio/blob/main/img/github/animatedName_git.gif) 
 
 Watch my best projects on my portfolio. This project will never be done..
 
