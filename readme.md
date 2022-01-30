@@ -1,7 +1,11 @@
 # Portfolio 2021 - David van Rumpt
 ![](https://github.com/davidvanr21/portfolio/blob/main/img/github/animatedName_git.gif) 
 
-Watch my best projects on my portfolio. This project will never be done..
+Watch my best projects on my portfolio.
+
+
+## In progress
+This project will never be done. There will always be new ideas and more recent projects that I'm working on. Feel free to contact me so we can talk about some work.
 
 ## Credits
 - Big thanks to [Ralf Zonneveld](https://github.com/ralfz123) for helping me with install and put this site online.
