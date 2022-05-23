@@ -62,7 +62,7 @@
             <nav class="s-header__nav-wrap">
                 <ul class="s-header__nav">
                     <!-- <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li> -->
-                    <li><a class="smoothscroll" href="#portfolio" title="Works">Work</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Projects">Projects</a></li>
                     <li><a class="smoothscroll" href="#about" title="About">About</a></li>
                     <li><a class="smoothscroll" href="#brandstov" title="Brandstov">Brandstov</a></li>
                 </ul>
@@ -250,7 +250,7 @@
 
             <div class="column large-6 w-900-stack s-about__intro-text">
                 <h1 class="display-1" data-aos="fade-up">
-                    I'm a young digital designer who loves to make perfect user-friendly products.
+                    I'm a young digital designer who loves to make playful and user-friendly products.
                 </h1>
 
                 <p class="lead" data-aos="fade-up">
@@ -303,12 +303,12 @@
 
             <div class="column large-6 w-900-stack">
                 <h1 class="display-1" data-aos="fade-up">
-                    This is Brandstov. The instagram account I use for creative expertise. 
+                   This is Brandstov. The instagram account I use for creative expertise. 
                 </h1>
             </div>
             <div class="column large-6 w-900-stack">
-                <p class="lead" data-aos="fade-up">
-                From the 2nd of April 2020, I started this account to put out the creative work I do to the whole world.
+                <p class="lead" data-aos="fade-up" id="brandstovContent">
+                From the 2nd of April 2020, I started <a href="https://instagram.com/brandstov" target="_blank">this account</a> to put out the creative work I do to the whole world.
                 I'm using it to experiment with all kinds of projects and test new software. I really love this way
                 of sharing and connecting with other creative people.
                 </p>
@@ -316,15 +316,13 @@
 
             <div class="column large-12 tab-12">
                 <div class="video-container">
-                <!-- <iframe src="img/homepage/brandstov_showreel.mp4" width="500" height="281" frameborder="0" autoplay playsinline webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-                <video controls autoplay muted loop>
-                    <source src="img/homepage/brandstov_showreel.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                    <video autoplay muted loop id="brandstovShowreel" onclick="playPauseVideo()">
+                        <source src="img/homepage/brandstov_showreel.mp4" type="video/mp4">
+                        Your browser does not support the video tag.</video>
                 </div>
             </div>
         </div>
-        
+    </section>
     <!-- Contact
     ================================================== -->
     <section class="s-contact">
@@ -393,6 +391,7 @@
     <!-- <script src="js/jquery-3.2.1.min.js"></script>  -->
     <!-- <script src="js/plugins.js"></script> -->
     <!-- <script src="js/main.js"></script> -->
+    <script src="js/script.js"></script>
 
     <!-- animation scripts -->
     <script src="js/lottie.js"></script> 

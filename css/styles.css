@@ -659,6 +659,11 @@ canvas {
     position: absolute;
 }
 
+#brandstovContent a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
 /* ------------------------------------------------------------------- 
  * ## interactive
  * ------------------------------------------------------------------- */
@@ -4862,25 +4867,26 @@ html.no-csstransitions .s-hero__content {
 .s-footer {
     padding-top: var(--vspace-2);
     /* padding-bottom: var(--vspace-4); */
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 .s-footer a {
-    color: black;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .ss-go-top link-is-visible {
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 
 .s-footer a:hover {
-    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .s-footer .h6 {
-    color: black;
+    color: rgb(255, 255, 255);
     margin-top: 0;
 }
 
@@ -4909,14 +4915,14 @@ html.no-csstransitions .s-hero__content {
     content: "";
     height: 1px;
     width: 33.333%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: var(--vspace-0_25);
     left: var(--gutter-lg);
 }
 
 .s-footer__block--end .btn {
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     border: .2rem solid black;
     color: white;
     margin-right: 0;
