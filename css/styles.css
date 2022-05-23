@@ -4876,10 +4876,6 @@ html.no-csstransitions .s-hero__content {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.ss-go-top link-is-visible {
-    color: rgb(0, 0, 0) !important;
-}
-
 
 .s-footer a:hover {
     border-bottom: 1px solid rgb(255, 255, 255);
@@ -4961,12 +4957,12 @@ html.no-csstransitions .s-hero__content {
 
 .ss-copyright a {
     display: inline-block;
-    color: rgb(0, 0, 0);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .ss-copyright a:hover, .ss-copyright a:focus {
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .ss-copyright span {
