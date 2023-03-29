@@ -35,7 +35,7 @@
 
 </head>
 
-<body>
+<body id="top">
 
     <!-- preloader
     ================================================== -->
@@ -68,7 +68,7 @@
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
 
-            <!-- Contact -->
+            <!-- Contact button -->
             <!-- <a href="mailto:davidvanrumpt@gmail.com" class="btn btn--primary btn--small">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
                 Contact
@@ -76,7 +76,10 @@
 
         </div> <!-- end header-content -->
 
+        <!-- Phone hamburger toggle -->
         <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+
+
 
     </header> <!-- end s-header -->
 
@@ -85,7 +88,6 @@
     ================================================== -->
     <section id="hero" class="s-hero target-section">
         <div id="animation"></div>
-        <canvas id="interactiveElement"></canvas>
     </section>
     
 </section> <!-- end s-services -->
@@ -104,7 +106,7 @@
     <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
 
         <!-- project_addTimer -->
-        <div class="column" data-aos="fade-up">
+        <!-- <div class="column" data-aos="fade-up"> -->
             <div class="folio-item">
                 <div class="folio-item__thumb">
                     <a class="folio-item__thumb-link" href="img/homepage/work-addTimer.png" Title="Add Timer Concept" data-size="1050x700">
@@ -122,32 +124,12 @@
                     </p>
                 </div> -->
             </div>
-        </div> <!-- end column -->
+        <!-- </div> -->
+         <!-- end column -->
 
-        <!-- project_yallaswap -->
-        <div class="column" data-aos="fade-up">
-            <div class="folio-item">
-                <div class="folio-item__thumb">
-                    <a class="folio-item__thumb-link" href="img/homepage/project_yallaswap.png" title="The Lamp" data-size="1050x700">
-                        <img src="img/homepage/project_yallaswap.png" 
-                             srcset="img/homepage/project_yallaswap.png" alt="">
-                    </a>
-                </div>
-                <div class="folio-item__info">
-                    <div class="folio-item__cat">Head of Design / WEB3</div>
-                    <h4 class="folio-item__title">Design & strategy for an all-new NFT Marketplace</h4>
-                </div>
-                <a href="public/project_yallaswap.html" title="Project Link" class="folio-item__project-link">Watch project</a>
-                <!-- <div class="folio-item__caption">
-                    <p>I've discussed and designed a lot of UI/UX elements of the brand new Bedankjes.nl website. together
-                        with the teams of CODE and Bedankjes, we've made some cool stuff. Watch the project <a href="public/work6.html">here</a>.
-                    </p>
-                </div> -->
-            </div>
-        </div> <!-- end column -->
 
         <!-- project_cbs -->
-        <div class="column" data-aos="fade-up">
+        <div data-aos="fade-up">
             <div class="folio-item">
                 <div class="folio-item__thumb">
                     <a class="folio-item__thumb-link" href="img/homepage/work-cbsData.png" title="Data visualisation" data-size="1050x700">
@@ -164,7 +146,7 @@
         </div> <!-- end column -->
 
         <!-- project_fmi -->
-        <div class="column" data-aos="fade-up">
+        <div data-aos="fade-up">
             <div class="folio-item">
                 <div class="folio-item__thumb">
                     <a class="folio-item__thumb-link" href="img/homepage/work-animation1.png" title="Animation FMI" data-size="1050x700">
@@ -179,49 +161,6 @@
             </div>
         </div> <!-- end column -->
         
-        <!-- project_bedankjes -->
-        <div class="column" data-aos="fade-up">
-            <div class="folio-item">
-                <div class="folio-item__thumb">
-                    <a class="folio-item__thumb-link" href="img/homepage/work-bedankjesCode.png" title="Corrugated Sheets" data-size="1050x700">
-                        <img src="img/homepage/work-bedankjesCode.png" 
-                             srcset="img/homepage/work-bedankjesCode.png" alt="">
-                    </a>
-                </div>
-                <div class="folio-item__info">
-                    <div class="folio-item__cat">HTML & CSS</div>
-                    <h4 class="folio-item__title">Responsive webdesign</h4>
-                </div>
-                <a href="public/project_bedankjes.html" title="Project Link" class="folio-item__project-link">Watch project</a>
-                <!-- <div class="folio-item__caption">
-                    <p>To practise with my HTML & CSS skills, I've coded two pages for Bedankjes.nl with a little rebranding inside of it.
-                        Watch the project <a href="public/work4.html">here</a>.
-                    </p>
-                </div> -->
-            </div>
-        </div> <!-- end column -->
-
-        <!-- project_spline -->
-        <div class="column" data-aos="fade-up">
-            <div class="folio-item">
-                <div class="folio-item__thumb">
-                    <a class="folio-item__thumb-link" href="img/work/spline/projectCard_spline@2x.png" title="Corrugated Sheets" data-size="1050x700">
-                        <img src="img/work/spline/projectCard_spline@2x.png" 
-                             srcset="img/work/spline/projectCard_spline@2x.png" alt="">
-                    </a>
-                </div>
-                <div class="folio-item__info">
-                    <div class="folio-item__cat">Interactive 3D Calculator / Experiment</div>
-                    <h4 class="folio-item__title">Spline Software</h4>
-                </div>
-                <a href="public/project_spline.html" title="Project Link" class="folio-item__project-link">Watch project</a>
-                <!-- <div class="folio-item__caption">
-                    <p>To practise with my HTML & CSS skills, I've coded two pages for Bedankjes.nl with a little rebranding inside of it.
-                        Watch the project <a href="public/work4.html">here</a>.
-                    </p>
-                </div> -->
-            </div>
-        </div> <!-- end column -->
 
 
     </div> <!-- folio-list -->
@@ -253,70 +192,26 @@
                     as you expect. My personal goal is to give the perfect
                     experience of products for all people. Everywhere and anytime.
                 </p>
+                <!-- <a class="btn btn--stroke h-full-width" href="/public/about_me.html">More about me</a> -->
             </div>
 
             <div class="column large-6 w-900-stack s-about__photo-block">
                 <div class="s-about__photo" data-aos="fade-up"></div>
             </div>
-        </div>
 
-        <div class="row block-large-1-2 block-tab-full s-about__process item-list">
-            <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Visual focused</h3>
-                <p>
-                    From a young age I was making websites and films. I've always
-                    been busy (and a little bit in love) with the visual side of projects.
-                    I love making sketches as much as possible, to bring different variaties of an
-                    idea in a project to develope the best outcome.
-                </p>
-            </div>
-            <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">A little bit nerdy...</h3>
-                <p>
-                    I think it's key to have the knowledge of coding to discuss
-                    things with developers. With that reason, I'm a little nerdy
-                    myself and I love to dive into some coding once in a while. I
-                    have much experience with HTML & CSS and also understand 
-                    the JavaScript language.
-                </p>
+
+            <div class="column large-12">
+
+                <div class="section-title  " data-num="*" data-aos="fade-up">
+                    <!-- <h3 class="h6">Hi there!</h3> -->
+                </div>
+
             </div>
         </div>
 
     </section> <!-- end s-about -->
 
-        <!-- Brandstov instagram account
-    ================================================== -->
-    <section id="brandstov" class="s-services">
 
-        <div class="row">
-            <div class="column large-12">
-                <div class="section-title" data-num="*" data-aos="fade-up">
-                    <h3 class="h6">Brandstov</h3>
-                </div>
-            </div>
-
-            <div class="column large-6 w-900-stack">
-                <h1 class="display-1" data-aos="fade-up">
-                   This is Brandstov. The instagram account I use for creative expertise. 
-                </h1>
-            </div>
-            <div class="column large-6 w-900-stack">
-                <p class="lead" data-aos="fade-up" id="brandstovContent">
-                From the 2nd of April 2020, I started <a href="https://instagram.com/brandstov" target="_blank">this account</a> to put out the creative work I do to the whole world.
-                I'm using it to experiment with all kinds of projects and test new software. I really love this way
-                of sharing and connecting with other creative people.
-                </p>
-            </div>
-
-            <div class="column large-12 tab-12">
-                <div class="video-container">
-                    <video autoplay muted loop id="brandstovShowreel" onclick="playPauseVideo()">
-                        <source src="img/homepage/brandstov_showreel.mp4" type="video/mp4">
-                        Your browser does not support the video tag.</video>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- Contact
     ================================================== -->
     <section class="s-contact">
@@ -373,7 +268,7 @@
                 <a href="mailto:davidvanrumpt@gmail.com" class="btn h-full-width">Let's Talk</a>
 
                 <div class="ss-copyright">
-                    <span>Copyright Flare 2022</span> 
+                    <span>Copyright Flare <span id="jaar"></span></span> 
                     <span>Design by <a href="https://www.styleshout.com/" target="_blank">StyleShout</a></span>
                 </div>
             </div>
