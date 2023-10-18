@@ -178,8 +178,8 @@
     --color-gray-3 : #d3d5d8;
     --color-gray-2 : #e2e3e5;
     --color-gray-1 : #f0f1f2;
-    /* Changed to black color because of the white background */
-    --color-white  : #161719;
+    /* Main used font color */
+    --color-white  : #ffffff;
 
     /* text
      */
@@ -206,8 +206,7 @@
     /* others
      */
     --color-body  : var(--color-1);
-    /* --color-bg    : #14171B; */
-    --color-bg    : #ffffff;
+    --color-bg    : #222121;
     --color-border: var(--color-gray-17);
 }
 
@@ -669,6 +668,8 @@ canvas {
     text-decoration: underline;
     color: #000000;
 }
+
+
 
 /* ------------------------------------------------------------------- 
  * ## interactive
@@ -3023,7 +3024,7 @@ input::-moz-focus-inner {
 .section-title h3 {
     z-index: 2;
     font-weight: 500;
-    color: var(--color-1);
+    color: var(--color-white);
     padding-bottom: 2em;
     margin-top: 0;
     position: absolute;
@@ -4146,24 +4147,12 @@ html.no-csstransitions .s-hero__content {
  * # about
  * ------------------------------------------------------------------- */
 .s-about {
-    background-color: var(--color-bg);
-    padding-top: calc(3 * var(--space));
+    background-color: var(--color-black);
+    /* margin-top: calc(3 * var(--space)); */
     padding-bottom: 0;
     position: relative;
+    margin: 50px;
 }
-
-/* Circle pattern */
-/* .s-about::before {
-    content: "";
-    display: block;
-    width: 28rem;
-    height: 17.6rem;
-    background-image: url(../images/dots.svg);
-    opacity: .25;
-    position: absolute;
-    top: 0;
-    left: 50%;
-} */
 
 
 /* ------------------------------------------------------------------- 
@@ -4354,7 +4343,7 @@ html.no-csstransitions .s-hero__content {
 .s-portfolio {
     background-color: var(--color-bg);
     padding-top: calc(3 * var(--space));
-    padding-bottom: 0;
+    padding-bottom: calc(3 * var(--space));
 }
 
 
@@ -4399,10 +4388,10 @@ html.no-csstransitions .s-hero__content {
 
 .folio-item__thumb a::after {
     z-index: 1;
-    content: "+";
+    /* content: "+"; */
     font-family: var(--font-2);
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 8rem;
     color: white;
     display: block;
     height: 32px;
@@ -4810,7 +4799,7 @@ html.no-csstransitions .s-hero__content {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: var(--color-1);
+    background-color: var(--color-bg);
     padding-top: calc(4 * var(--space));
     padding-bottom: calc(4 * var(--space));
 }
@@ -4873,8 +4862,8 @@ html.no-csstransitions .s-hero__content {
 .s-footer {
     padding-top: var(--vspace-2);
     /* padding-bottom: var(--vspace-4); */
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    color: var(--color-white);
+    background-color: var(--color-bg);
 }
 
 .s-footer a {
