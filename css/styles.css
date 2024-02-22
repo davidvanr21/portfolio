@@ -4489,6 +4489,7 @@ html.no-csstransitions .s-hero__content {
     color: black;
 }
 
+
 /* on hover
  *---------------------------------------------- */
 .folio-item:hover .folio-item__thumb a::before {
@@ -4515,6 +4516,7 @@ html.no-csstransitions .s-hero__content {
     visibility: visible;
     -webkit-transform: translateX(0);
     transform: translateX(0);
+    border-radius: 200px;
 }
 
 
