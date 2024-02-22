@@ -183,7 +183,7 @@
 
     /* text
      */
-    --color-text       : var(--color-gray-10);
+    --color-text       : var(--color-gray-2);
     --color-text-dark  : var(--color-white);
     --color-text-light : var(--color-gray-12);
     --color-placeholder: var(--color-gray-11);
@@ -206,7 +206,7 @@
     /* others
      */
     --color-body  : var(--color-1);
-    --color-bg    : #222121;
+    --color-bg    : #151515;
     --color-border: var(--color-gray-17);
 }
 
@@ -593,7 +593,9 @@ textarea {
 /* ------------------------------------------------------------------- 
  * ## My own CSS
  * ------------------------------------------------------------------- */
-.elfsight {
+
+
+ .elfsight {
     margin: 0 200px;
     align-content: center;
     padding-bottom: calc(2 * var(--space));
@@ -4147,11 +4149,11 @@ html.no-csstransitions .s-hero__content {
  * # about
  * ------------------------------------------------------------------- */
 .s-about {
-    background-color: var(--color-black);
+    background-color: var(--color-bg);
     /* margin-top: calc(3 * var(--space)); */
     padding-bottom: 0;
     position: relative;
-    margin: 50px;
+    padding-top: calc(5 * var(--space));
 }
 
 
@@ -4358,6 +4360,8 @@ html.no-csstransitions .s-hero__content {
 .folio-item {
     position: relative;
     overflow: hidden;
+    border-radius: 32px;
+    margin-bottom: 32px;
 }
 
 .folio-item__caption {
@@ -4428,14 +4432,14 @@ html.no-csstransitions .s-hero__content {
     -webkit-transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     position: absolute;
-    left: 0;
-    top: 3.6rem;
+    left: 6rem;
+    bottom: 6rem;
 }
 
 .folio-item__title {
     color: white;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 3rem;
     line-height: 1.5;
     margin: 0;
 }
@@ -4466,11 +4470,12 @@ html.no-csstransitions .s-hero__content {
     -webkit-transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     position: absolute;
-    bottom: 3.9rem;
-    left: 3rem;
+    bottom: 6rem;
+    right: 6rem;
 }
 
-.folio-item__project-link::before {
+/* Line naast button */
+/* .folio-item__project-link::before {
     display: block;
     content: "";
     height: 1px;
@@ -4479,14 +4484,16 @@ html.no-csstransitions .s-hero__content {
     position: absolute;
     top: 50%;
     left: -3rem;
-}
+} */
+
+/* CTA hover color */
 
 .folio-item__project-link:hover, 
 .folio-item__project-link:focus, 
 .folio-item__project-link:active {
     background-color: white;
     border: 1px solid white;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -4532,7 +4539,7 @@ html.no-csstransitions .s-hero__content {
         font-size: 2rem;
     }
     .folio-item__title {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
     .folio-item__cat {
         font-size: 1.1rem;
@@ -4544,7 +4551,9 @@ html.no-csstransitions .s-hero__content {
         font-size: 3rem;
     }
     .folio-item__title {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+        top: 2rem;
+        left: 2rem;
     }
     .folio-item__cat {
         font-size: 1.2rem;
@@ -4557,6 +4566,8 @@ html.no-csstransitions .s-hero__content {
     }
     .folio-item__title {
         font-size: 1.5rem;
+        top: 2rem;
+        left: 1rem;
     }
     .folio-item__cat {
         font-size: 1.1rem;
