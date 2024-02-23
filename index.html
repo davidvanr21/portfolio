@@ -32,6 +32,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon/favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
 
 </head>
 
@@ -46,9 +48,9 @@
         </div>
     </div>
 
-    <!-- header
+    <!-- header navigation desktop + mobile
     ================================================== -->
-    <header class="s-header">
+    <!-- <header class="s-header">
 
         <div class="s-header__logo">
             <a href="index.html">
@@ -58,38 +60,94 @@
 
         <div class="s-header__content">
     
-            <!-- <nav class="s-header__nav-wrap">
+            <nav class="s-header__nav-wrap">
                 <ul class="s-header__nav">
                     <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
                     <li><a class="smoothscroll" href="#portfolio" title="Projects">Projects</a></li>
                     <li><a class="smoothscroll" href="#about" title="About">About</a></li>
                     <li><a class="smoothscroll" href="#brandstov" title="Brandstov">Brandstov</a></li>
                 </ul>
-            </nav> -->
-            <!-- end s-header__nav-wrap -->
+            </nav>
+            
 
-            <!-- Contact button -->
-            <!-- <a href="mailto:davidvanrumpt@gmail.com" class="btn btn--primary btn--small">
+        
+                 <a href="mailto:davidvanrumpt@gmail.com" class="btn btn--primary btn--small"> 
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
                 Contact
-            </a> -->
+            </a> 
 
-        </div> <!-- end header-content -->
+        </div>
 
-        <!-- Phone hamburger toggle -->
-        <!-- <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>  -->
+        <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a> 
 
-
-
-    </header> <!-- end s-header -->
+    </header> -->
 
 
     <!-- hero
     ================================================== -->
     <section id="hero" class="s-hero target-section">
         <div id="animation"></div>
+
+        <div class="wrapper">
+            <p class="availableForWork-text">Available for work</p>
+			<div class="cd-single-point">
+				<a class="cd-img-replace" href="#0"></a>
+			</div>  
+        </div>
+
+        <!-- <div class="tickerwrapper">
+            <ul class='list'>
+               <li class='listitem'>
+                 <span class="workingOn-Job">Website redesign</span>
+                 <a href="https://boro.nu/" target="_blank"><span class="workingOn-client">BORO</span></a>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 2</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 3</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 4</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 5</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 1</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 2</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 3</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 4</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 5</span>
+               </li>
+              <li class='listitem'>
+                 <span>This is list item 1</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 2</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 3</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 4</span>
+               </li>
+               <li class='listitem'>
+                 <span>This is list item 5</span>
+               </li>
+           </ul>
+         </div> -->
+        
     </section>
-    
+
 </section> <!-- end s-services -->
 
 
@@ -121,6 +179,28 @@
 
 <section id="portfolio" class="s-portfolio">
     <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
+
+        <!-- project_Stayokay -->
+            <div class="folio-item">
+                <div class="folio-item__thumb">
+                    <a class="folio-item__thumb-link" href="public/project_addTimer.html" Title="Add Timer Concept" data-size="1050x700">
+                        <!-- <img src="img/homepage/afstudeerproject teaser stayokay app.mp4" srcset="img/homepage/work-addTimer.png" alt="Image - Concept Adding a extra timer on IOS"> -->
+
+                        <video controls autoplay muted>
+                            <source  src="img/homepage/afstudeerproject teaser stayokay app.mp4" type="video/mp4">
+                            Your browser does not support the video tag or the file format of this video.
+                          </video>
+                    </a>
+                </div>
+                <div class="folio-item__info">
+                    <div class="folio-item__cat">UX/UI Design & Animation</div>
+                    <h4 class="folio-item__title">Hostel App Concept</h4>
+                </div>
+                <a href="" title="Project Link" class="folio-item__project-link">Contact to see</a>
+
+            </div>
+         <!-- end column -->
+
 
         <!-- project_addTimer -->
         <!-- <div class="column" data-aos="fade-up"> -->
@@ -177,15 +257,33 @@
                 <a href="public/project_fmi.html" title="Project Link" class="folio-item__project-link">Watch project</a>
             </div>
         </div> <!-- end column -->
-        
-
+    
 
     </div> <!-- folio-list -->
 
 </section> <!-- end s-portfolio -->
 
 
-    
+    <!-- about
+    ================================================== -->
+    <!-- <section id="about" class="s-about">
+
+        <div class="row">
+
+            <div class="column large-6 w-900-stack s-about__intro-text">
+                <h1 class="display-1" data-aos="fade-up">
+                    Watch all work
+                </h1>
+
+                <p class="lead" data-aos="fade-up">
+                    Coming soon
+                </p>
+            </div>
+
+        </div>
+
+    </section> -->
+
 
 
 
