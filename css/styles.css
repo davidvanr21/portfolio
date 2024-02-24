@@ -193,6 +193,7 @@
     --color-btn                   : var(--color-gray-15);
     --color-btn-text              : var(--color-white);
     --color-btn-hover             : var(--color-white);
+    --color-btn-disabled          : var(--color-gray-11);
     --color-btn-hover-text        : var(--color-black);
     --color-btn-primary           : var(--color-4);
     --color-btn-primary-text      : var(--color-white);
@@ -594,6 +595,87 @@ textarea {
 /* ------------------------------------------------------------------- 
  * ## My own CSS
  * ------------------------------------------------------------------- */
+
+
+ /* Copy email adress */
+ #emailText {
+    color: white;
+    padding: 20px;
+    margin-top: var(--vspace-1);
+    font-family: var(--font-2);
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 200px;
+    border: 1px solid #444;
+ }
+
+ @media screen and (max-width: 800px) {
+    #emailText {
+        font-size: 2rem;
+     }
+ }
+
+ @media screen and (max-width: 400px) {
+    #emailText {
+        font-size: 1.5rem;
+     }
+ }
+
+ #emailText:hover {
+    background-color: rgb(61, 61, 61);
+    cursor: pointer;
+ }
+
+#mail_copy {
+    display: block;
+    visibility: hidden;
+    color: var(--color-gray-8);
+}
+
+#mail_copied {
+    display: none;
+    visibility: hidden;
+    color: #1ec157;
+}
+
+
+
+ .introText {
+    font-size: 4rem !important;
+    line-height: 6rem !important;
+ }
+
+ @media screen and (max-width: 1200px) {
+    .introText {
+        font-size: 3rem !important;
+        line-height: 5rem !important;
+     }
+ }
+ 
+ @media screen and (max-width: 800px) {
+    .introText {
+        font-size: 2rem !important;
+        line-height: 3rem !important;
+     }
+ }
+
+
+
+
+ .project-link_disables {
+    color: var(--color-btn-disabled) !important; 
+ }
+
+ .project-link_disables:hover {
+    color: white !important;
+    background-color: var(--color-btn-disabled) !important;
+    stroke: none !important;
+ }
+
+
 
 
  .tickerwrapper {
@@ -4468,7 +4550,6 @@ html.no-csstransitions .s-hero__content {
 .folio-item {
     position: relative;
     overflow: hidden;
-    border-radius: 32px;
     margin-bottom: 32px;
 }
 
@@ -4478,6 +4559,7 @@ html.no-csstransitions .s-hero__content {
 
 /* thumbnail
  *---------------------------------------------- */
+ 
 .folio-item__thumb a {
     display: block;
 }
@@ -4523,9 +4605,10 @@ html.no-csstransitions .s-hero__content {
     top: 50%;
 }
 
-.folio-item__thumb img {
+.folio-item__thumb img, video {
     vertical-align: bottom;
     margin-bottom: 0;
+    border-radius: 32px;
 }
 
 /* portfolio info
@@ -4580,6 +4663,39 @@ html.no-csstransitions .s-hero__content {
     position: absolute;
     bottom: 6rem;
     right: 6rem;
+    border-radius: 200px;
+}
+
+
+/* Mobile items */
+
+@media screen and (max-width: 800px) {
+    .folio-item__thumb a::before {
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .folio-item {
+        position: relative;
+        overflow: visible;
+        margin-bottom: 96px;
+    }
+
+    .folio-item__info {
+        visibility: visible;
+        opacity: 1;
+        left: 0rem;
+        bottom: -4rem;
+    }
+    
+    .folio-item__project-link {
+        opacity: 1;
+        visibility: visible;
+        position: absolute;
+        bottom: -5rem;
+        right: -12rem;
+    }
 }
 
 /* Line naast button */
@@ -4619,6 +4735,7 @@ html.no-csstransitions .s-hero__content {
     transform: scale(1);
 }
 
+@media screen and (min-width: 800px) {
 .folio-item:hover .folio-item__info {
     opacity: 1;
     visibility: visible;
@@ -4631,8 +4748,9 @@ html.no-csstransitions .s-hero__content {
     visibility: visible;
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    border-radius: 200px;
 }
+}
+
 
 
 /* ------------------------------------------------------------------- 
@@ -4648,9 +4766,11 @@ html.no-csstransitions .s-hero__content {
     }
     .folio-item__title {
         font-size: 3rem;
+        font-weight: 600;
     }
     .folio-item__cat {
         font-size: 1.1rem;
+        color: white;
     }
 }
 
@@ -4659,26 +4779,12 @@ html.no-csstransitions .s-hero__content {
         font-size: 3rem;
     }
     .folio-item__title {
-        font-size: rem;
+        font-size: 2rem;
         top: 2rem;
         left: 2rem;
     }
     .folio-item__cat {
         font-size: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .folio-item__thumb a::after {
-        font-size: 2rem;
-    }
-    .folio-item__title {
-        font-size: 1rem;
-        top: 2rem;
-        left: 1rem;
-    }
-    .folio-item__cat {
-        font-size: 1.1rem;
     }
 }
 
