@@ -41,7 +41,7 @@
     ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/favicon/favicon-180x180.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon/favicon-32x32.png">
     <link rel="manifest" href="site.webmanifest">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 
@@ -49,20 +49,11 @@
 </head>
 
 <body id="top">
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
 
     <!-- header navigation desktop + mobile
     ================================================== -->
     <!-- <header class="s-header">
-
+            
         <div class="s-header__logo">
             <a href="index.html">
                 <img src="img/icons/david-title.svg" alt="Homepage">
@@ -92,20 +83,17 @@
 
         <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a> 
 
+
     </header> -->
 
 
     <!-- hero
     ================================================== -->
     <section id="hero" class="s-hero target-section">
-        <div id="animation"></div>
-
-        <div class="wrapper">
-            <p class="availableForWork-text">Available for work</p>
-			<div class="cd-single-point">
-				<a class="cd-img-replace" href="#0"></a>
-			</div>  
+        <div id="animation-container">
+            <div id="animation"></div>
         </div>
+
         
     </section>
 
@@ -119,101 +107,12 @@
         <div class="row">
             <div class="column large-14 w-900-stack s-about__intro-text">
                 <p class="lead introText" data-aos="fade-up">
-                    Meet David, a 24-year-old digital creative with a passion for creativity and innovation. Whether it's sketching,
-                    wireframing, or prototyping, design allows him to experiment and hone his concepts until he achieves the perfect
-                    solution. He creates digital products that have an impact in the real world.     
+                    Website under construction...     
                 </p>
             </div>
         </div>
     </section> <!-- end s-about -->
 
-
-
-<section id="portfolio" class="s-portfolio">
-    <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
-
-        <!-- project_Stayokay -->
-            <div class="folio-item">
-                <div class="folio-item__thumb">
-                    <a class="folio-item__thumb-link" href="" Title="Stayokay Hostel App" data-size="1050x700">
-                        <video autoplay muted loop style="max-width: 100%;">
-                            <source  src="img/homepage/afstudeerproject teaser stayokay app.mp4" type="video/mp4">
-                            Your browser does not support the video tag or the file format of this video.
-                          </video>
-                    </a>
-                </div>
-                <div class="folio-item__info">
-                    <div class="folio-item__cat">UX/UI Design & Animation</div>
-                    <h4 class="folio-item__title">Hostel App Concept</h4>
-                </div>
-                <a href="" title="Project Link" class="folio-item__project-link">Contact to see</a>
-
-            </div>
-         <!-- end column -->
-
-
-        <!-- project_addTimer -->
-        <!-- <div class="column" data-aos="fade-up"> -->
-            <div class="folio-item">
-                <div class="folio-item__thumb">
-                    <a class="folio-item__thumb-link" href="public/project_addTimer.html" Title="Add Timer Concept" data-size="1050x700">
-                        <img src="img/work/addTimer/addTimer-portfolioGIF.gif" srcset="img/work/addTimer/addTimer-portfolioGIF.gif" alt="Image - Concept Adding a extra timer on IOS">
-                    </a>
-                </div>
-                <div class="folio-item__info">
-                    <div class="folio-item__cat">UX/UI Improvement, Prototype Animation</div>
-                    <h4 class="folio-item__title">Add Timer Concept</h4>
-                </div>
-                <a href="public/project_addTimer.html" title="Project Link" class="folio-item__project-link">Discover project</a>
-                <!-- <div class="folio-item__caption">
-                    <p>Solving a problem that I experienced myself using the timer function in iOS. I've
-                        an animation of the concept to explain it. Watch the project <a href="public/work3.html">here</a>.
-                    </p>
-                </div> -->
-            </div>
-        <!-- </div> -->
-         <!-- end column -->
-
-        <!-- project_StudioMVP -->
-        <div class="folio-item">
-            <div class="folio-item__thumb">
-                <a class="folio-item__thumb-link" href="" title="Showreel StudioMVP" data-size="1050x700">
-                    <!-- <img src="img/homepage/work-animation1.png" alt="Image - FMI Animation"> -->
-
-                    <video autoplay muted loop style="max-width: 100%;">
-                        <source  src="img/homepage/studioMVP-showreel.mp4" type="video/mp4">
-                        Your browser does not support the video tag or the file format of this video.
-                      </video>
-                </a>
-            </div>
-            <div class="folio-item__info">
-                <div class="folio-item__cat">Showreel</div>
-                <h4 class="folio-item__title">Showreel StudioMVP</h4>
-            </div>
-            <a href="" title="Project is coming soon" class="folio-item__project-link project-link_disables">Coming soon</a>
-        </div>
-
-        <!-- project_cbs -->
-        <div data-aos="fade-up">
-            <div class="folio-item">
-                <div class="folio-item__thumb">
-                    <a class="folio-item__thumb-link" href="public/project_cbs.html" title="Data visualisation" data-size="1050x700">
-                        <img src="img/homepage/work-cbsData.png" 
-                             srcset="img/homepage/work-cbsData.png" alt="Image - Datavisualisation">
-                    </a>
-                </div>
-                
-                <div class="folio-item__info">
-                    <div class="folio-item__cat">Information architecture & Datavisualisation</div>
-                    <h4 class="folio-item__title">CBS Datavisualisation</h4>
-                </div>
-                <a href="public/project_cbs.html" title="Project Link" class="folio-item__project-link">Discover project</a>
-            </div>
-        </div> <!-- end column -->
-
-    </div> <!-- folio-list -->
-
-</section> <!-- end s-portfolio -->
 
 
     <!-- about
@@ -267,7 +166,7 @@
 
     <!-- Contact
     ================================================== -->
-    <section class="s-contact">
+    <!-- <section class="s-contact">
 
         <div class="row narrower s-contact__top h-text-center">
             <div class="column">
@@ -276,21 +175,19 @@
                     Feel free to contact me if you're looking to team up on a project.
                 </h1>
             </div>
-        </div> <!-- s-footer__top -->
+        </div> 
 
         <div class="row h-text-center">
-            <!-- Text that will be clicked to copy email -->
             <div class="column">
                 <p id="emailText">
-                davidvanrumpt@gmail.com
+                Mail me
                 </p>
             
-            <!-- Elementen om te tonen na hover en klik -->
                 <p id="mail_copy">Copy email</p>
                 <p id="mail_copied">Email copied</p>
             </div>
         </div>
-    </section>  <!-- end s-contact -->
+    </section> -->
 
 
     <!-- FOOTER
@@ -309,44 +206,28 @@
                     </div> -->
         
                     <div class="column large-5 tab-12 s-footer__block">
-                        <h4 class="h6">Follow me on:</h4 class="h6">
+                        <!-- <h4 class="h6">Follow me on:</h4 class="h6">  -->
         
                         <ul class="s-footer__list">
-                            <li><a href="https://www.linkedin.com/in/david-van-rumpt-b5a846180/" target="_blank">LinkedIn</a></li>
-                            <li><a href="https://www.instagram.com/brandstov/" target="_blank">Instagram</a></li>
-                            <li><a href="https://github.com/davidvanr21?tab=repositories" target="_blank">GitHub</a></li>
+                            <!-- <li><a href="https://www.linkedin.com/in/david-van-rumpt-b5a846180/" target="_blank">LinkedIn</a></li> -->
+                            <!-- <li><a href="https://www.instagram.com/brandstov/" target="_blank">Instagram</a></li> -->
+                            <!-- <li><a href="https://github.com/davidvanr21?tab=repositories" target="_blank">GitHub</a></li> -->
                             <!-- <li><a href="https://codepen.io/davidvanr21" target="_blank">CodePen</a></li> -->
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="column large-4 medium-12 s-footer__block--end">
-                <!-- <a href="mailto:davidvanrumpt@gmail.com" class="btn h-full-width">Let's Talk</a> -->
-
-                <div class="ss-copyright">
-                    <span>Copyright Flare <span id="jaar"></span></span> 
-                    <span>Design by <a href="https://www.styleshout.com/" target="_blank">StyleShout</a></span>
-                </div>
-            </div>
         </div>
     </footer>
 
     <!-- Java Script
     ================================================== -->
-    <!-- <script src="js/jquery-3.2.1.min.js"></script>  -->
-    <!-- <script src="js/plugins.js"></script> -->
-    <!-- <script src="js/main.js"></script> -->
     <script src="js/script.js"></script>
 
     <!-- animation scripts -->
     <script src="js/lottie.js"></script> 
     <script src="js/animationScript.js"></script> 
 
-    <!-- interactive header element -->
-    <!-- from: https://codepen.io/GreenSock/pen/BaarZmV -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r122/three.min.js"></script>
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-    <script src="js/interactiveCode.js"></script> -->
 </body>
 </html>
